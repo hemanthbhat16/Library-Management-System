@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="423.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Issuebookcontroller">
+   <children>
+      <TextField fx:id="bid" layoutX="244.0" layoutY="116.0" promptText="BID">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <Label layoutX="244.0" layoutY="24.0" prefHeight="47.0" prefWidth="132.0" text="Enter Details">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="105.0" prefHeight="47.0" prefWidth="151.0" text="Book ID ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="164.0" prefHeight="47.0" prefWidth="151.0" text="User ID">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="223.0" prefHeight="47.0" prefWidth="151.0" text="Period ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="uid" layoutX="244.0" layoutY="175.0" promptText="UID">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="day" layoutX="244.0" layoutY="234.0" promptText="Days">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <Label layoutX="86.0" layoutY="278.0" prefHeight="47.0" prefWidth="188.0" text="Issued Date">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="date" layoutX="244.0" layoutY="289.0" prefHeight="27.0" prefWidth="181.0" promptText="(DD-MM-YYYY)" />
+      <Button layoutX="284.0" layoutY="366.0" mnemonicParsing="false" onAction="#sub" prefHeight="31.0" prefWidth="81.0" text="SUBMIT">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="wr" alignment="CENTER" layoutX="245.0" layoutY="334.0" prefHeight="17.0" prefWidth="160.0" />
+      <Hyperlink layoutX="14.0" layoutY="24.0" onAction="#back" text="&lt;- back" />
+   </children>
+</Pane>

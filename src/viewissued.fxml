@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewissuedcontroller">
+   <children>
+      <TableView fx:id="bookid" layoutY="117.0" prefHeight="283.0" prefWidth="600.0">
+         <columns>
+            <TableColumn fx:id="iid" prefWidth="81.33331298828125" text="IID" />
+            <TableColumn fx:id="uid" prefWidth="76.0" text="UID" />
+            <TableColumn fx:id="bid" prefWidth="90.66665649414062" text="BID" />
+            <TableColumn fx:id="isdt" prefWidth="137.33331298828125" text="ISSUED DATE" />
+            <TableColumn fx:id="rtdt" prefWidth="111.3333740234375" text="RETURN DATE" />
+            <TableColumn fx:id="pri" prefWidth="103.3333740234375" text="PERIOD" />
+         </columns>
+      </TableView>
+      <Label layoutX="237.0" layoutY="36.0" prefHeight="47.0" prefWidth="127.0" text="Book Issued">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Hyperlink layoutX="24.0" layoutY="24.0" onAction="#back" text="&lt;- back" />
+   </children>
+</Pane>

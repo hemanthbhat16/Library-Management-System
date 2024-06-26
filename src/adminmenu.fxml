@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="commu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="464.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="adminmenucontroller">
+   <children>
+      <Label layoutX="207.0" layoutY="42.0" prefHeight="50.0" prefWidth="185.0" text="Admin Functions" textAlignment="JUSTIFY">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="162.0" mnemonicParsing="false" onAction="#vb" prefHeight="50.0" prefWidth="154.0" text="View Books">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="411.0" layoutY="162.0" mnemonicParsing="false" onAction="#vib" prefHeight="50.0" prefWidth="176.0" text="View Isuued Books">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="223.0" layoutY="162.0" mnemonicParsing="false" onAction="#vu" prefHeight="50.0" prefWidth="154.0" text="View Users">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="422.0" layoutY="281.0" mnemonicParsing="false" onAction="#ib" prefHeight="50.0" prefWidth="154.0" text="Issue Book">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="223.0" layoutY="281.0" mnemonicParsing="false" onAction="#au" prefHeight="50.0" prefWidth="154.0" text="Add Users">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="281.0" mnemonicParsing="false" onAction="#ab" prefHeight="50.0" prefWidth="154.0" text="Add Books">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="111.0" layoutY="371.0" mnemonicParsing="false" onAction="#retbook" prefHeight="50.0" prefWidth="154.0" text="Return Book">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="334.0" layoutY="371.0" mnemonicParsing="false" onAction="#logout" prefHeight="50.0" prefWidth="154.0" text="Log out">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

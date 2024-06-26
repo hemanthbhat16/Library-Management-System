@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="402.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="usermybookcontroller">
+   <children>
+      <Label layoutX="246.0" layoutY="48.0" prefHeight="47.0" prefWidth="107.0" text="My Books">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Hyperlink layoutX="24.0" layoutY="24.0" onAction="#back" text="&lt;- back" />
+      <TableView fx:id="ub" layoutY="141.0" prefHeight="261.0" prefWidth="600.0">
+        <columns>
+            <TableColumn fx:id="bId" prefWidth="60.666656494140625" text="BID" />
+          <TableColumn fx:id="bn" prefWidth="126.0" text="Book Name" />
+            <TableColumn fx:id="ath" prefWidth="104.0" text="Genre" />
+          <TableColumn fx:id="pr" prefWidth="84.6666259765625" text="Price" />
+            <TableColumn fx:id="id" minWidth="0.0" prefWidth="104.66668701171875" text="Issue Date" />
+            <TableColumn fx:id="rd" prefWidth="121.3333740234375" text="Return Date" />
+        </columns>
+      </TableView>
+   </children>
+</Pane>
